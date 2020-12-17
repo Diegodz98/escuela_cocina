@@ -1,0 +1,213 @@
+:root {
+    --primario: #f46669;
+    --secundario: #c7c57d;
+    --gris : #f5f5f5;
+}
+body{
+    font-family: sans-serif;
+    color: #303030;
+}
+p{
+    font-weight: 300;
+    line-height: 2em;
+    font-size: 1em;
+}
+
+.nav-link{
+    color: #000000;
+}
+.bg-primary, .list-group-item-primary{
+    background-color: #f46669 !important;
+}
+aside a,
+aside a:hover{
+    color: #f5f5f5;
+}
+.aside .card{
+    border: none;
+}
+aside .card-title{
+    color: #000000;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+aside .card-subtitle{
+    color: #d65d5f;
+    font-weight: 400;
+}
+aside .card-footer{
+    background-color: #c7c57d;
+}
+aside .card-footer a{
+    color: #000000;
+}
+.nav-link:hover{
+    color: #f46669;
+}
+
+.nav-link.active{
+    color: #f46669;
+    border-bottom: 2px solid #f46669;
+}
+
+.separador::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    background-image: url(../img/separador.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.inverso::after{
+    background-image: url(../img/separador-inverso.png);
+
+}
+
+
+.imagen > div{
+    height:30rem ;
+}
+
+.bg-vino{
+    background-image: url(../img/principal1.jpg);
+    
+}
+.bg-comida{
+    background-image: url(../img/principal2.jpg);
+   
+}
+.bg-comida, .bg-vino{
+    background-size: cover;
+    background-position: top center;
+}
+.imagen-superior .contenido{
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+
+}
+
+.imagen-inferior .contenido{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+
+    
+}
+.imagenes-principales {
+}
+
+
+@media(min-width:768px){
+    .imagen > div{
+        height: 45rem;
+    }
+}
+    
+
+.imagen-destacada{
+    height: 24em;
+    background-size: cover;
+}
+
+.bg-clase{
+    background-image: url(../img/1.jpg);
+}
+
+.nosotros-bg{
+    background-image: url(../img/principal1.jpg);
+}
+
+.contenido-nosotros{
+    margin-top: -5em;
+    border: 1px solid #e1e1e1;
+    position: relative;
+    z-index: 2;
+}
+.entrada a{
+    color: #f46669;
+}
+
+.contenido-entrada .meta p{
+    font-weight: 700;
+}
+.contenido-entrada .meta a{
+    color: #f46669;
+}
+.nosotros .informacion h3{
+    font-weight: 300;
+    font-size: 1.6em;
+}
+blockquote.subtitulo{
+    font-size: 1.6em;
+    color: #303030;
+    font-style: italic;
+    font-weight: 100;
+    border-left: .2em solid #f46669;
+}
+
+.btn-primary{
+    background-color: #f46669;
+    border-color: #f46669;
+}
+.btn-primary:hover{
+    background-color: #d65d5f;
+    border-color: #d65d5f;
+}
+
+
+.badge-secondary, .list-group-item-secndary{
+    background-color: #c7c57d;
+}
+.bg-secondary{
+    background-color: var(--secundario)!important;
+}
+.badge-secondar{
+    color: #000000;
+}
+
+.card-subtitle{
+    color: #d65d5f;
+    font-weight: 400;
+}
+
+.instructor{
+    font-size: 2.8em;
+    color: #d65d5f;
+}
+
+.licenciatura{
+    background-image: url(../img/chef_bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.licenciatura .row{
+    height: 38rem;
+}
+.licenciatura .contenido h2{
+    font-weight: 700;
+    font-size: 2.4rem;
+
+}
+.licenciatura .display-4{
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+.copyright{
+    font-weight: 700;
+}
+
+.footer{
+    border-bottom: 10px solid #f46669;
+ 
+}
+
+body.index .clases{
+    background-color: #f5f5f5;
+}
+
+.contacto-bg{
+    background-image: url(../img/principal2.jpg);
+}
+
